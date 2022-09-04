@@ -9,7 +9,7 @@ export const api = axios.create({
 
 
 export const api1 = axios.create({
-    baseURL: 'http://127.0.0.1:3001/api/auth',
+    baseURL: 'https://nejib-server.herokuapp.com/api/auth',
     headers: {
         'Content-Type': 'application/json'
     },
